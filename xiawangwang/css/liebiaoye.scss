@@ -1,0 +1,687 @@
+body{
+    background:#f9bcbc;
+}
+#debp{
+    width:1260px;
+    height:30px;
+    background:#000000;
+    position:relative;
+    .topNavWrap{
+        height:30px;
+        width:1090px;
+        margin:0 auto;
+        line-height:30px;
+        position:relative;
+        .topNavLeft{
+            float:left;
+            .f-hkdn{
+                color:white;
+            }
+            a{
+                color:white;
+            }
+        }
+        
+    }
+}
+#debp .topNavWrap a:hover{
+    color:red;
+}
+#debp .topNavWrap .topNavLeft .login{
+    margin-left:16px;
+}
+#debp .topNavWrap .topNavLeft2{
+    padding-left:30px;
+    float:left;
+}
+ #debp .topNavWrap .topNavLeft2 .app {
+        position: relative; 
+}
+#debp .topNavWrap .topNavRight{
+    float:right;
+    position:relative;
+    right:-3px;
+    li{
+        float:left;
+    }
+}
+#debp .topNavWrap .topNavRight li .mcDropMenuBox{
+    position:relative;
+    left:-3px;
+    top:-1px;
+    border:1px solid transparent;
+}
+#debp .topNavWrap .topnavRight li  .toplevel{
+    padding:0 14px 0 8px;
+}
+ #debp .topNavWrap .topNavRight .dropmenu:hover .mcDropMenuBox {
+        background: #fff; 
+}
+#debp .topNavWrap .topNavRight .dropmenu:hover .toplevel {
+        color: red;
+}
+#debp .topNavWrap .topNavRight .dropmenu:hover .GeRenCaidan {
+        display: block;
+        z-index: 105; 
+}
+#debp .topNavWrap .topNavRight .dropmenu:hover .topNavHolder .arr {
+        position: absolute;
+        right: -10px;
+        top: 50%;
+        margin-top: -2px;
+        border-color: transparent transparent red;
+        border-style: dashed dashed solid;
+        border-width: 0 4px 4px; 
+}
+#debp .topNavWrap .topNavRight .greenhand {
+        display: none; 
+}
+ #debp .topNavWrap .topNavRight .qianDao {
+        margin-right: 24px; 
+}
+#debp .topNavWrap .topNavRight .personal {
+        position: relative; 
+}
+ #debp .topNavWrap .topNavRight .personal .topNavHolder {
+          position: relative;
+          padding: 0 24px 0 16px !important; 
+}
+#debp .topNavWrap .topNavRight .personal .topNavHolder .arr {
+            position: absolute;
+            right: -10px;
+            top: 50%;
+            margin-top: -2px;
+            border-color: #999 transparent transparent;
+            border-style: solid dashed dashed;
+            border-width: 4px 4px 0; 
+}
+ #debp .topNavWrap .topNavRight .personal .GeRenCaidan {
+          position: absolute;
+          left: -1px;
+          top: 30px;
+          background: #fff;
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+          padding: 4px 15px 12px 14px;
+          display: none;
+          z-index: 105; 
+}
+#debp .topNavWrap .topNavRight .personal .GeRenCaidan a {
+            width: 80px;
+            display: block; 
+}
+#debp .topNavWrap .topNavRight .personal .GeRenCaidan a:hover {
+            color: red; 
+}
+#docHead {
+  background: #fff;
+  padding-top: 30px; 
+}
+#docHead .docHeadWrap {
+width: 1090px;
+height: 85px;
+margin: 0 auto; 
+}
+#docHead .docHeadWrap .logo {
+float: left; 
+}
+#docHead .docHeadWrap .searchbox {
+float: left;
+margin-left: 150px;
+position: relative;
+z-index: 100; 
+}
+#docHead .docHeadWrap .searchbox .search {
+width: 510px;
+height: 40px;
+padding-left: 1px;
+background-color: #ff2337;
+border-radius: 40px; 
+}
+#docHead .docHeadWrap .searchbox .search .input {
+  float: left;
+  margin: 2px 1px;
+  padding: 6px 39px 6px 30px;
+  background-color: #fff;
+  border-radius: 24px 0 0 24px; 
+}
+  #docHead .docHeadWrap .searchbox .search .input input {
+    width: 410px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 13px;
+    border: none;
+}
+#docHead .docHeadWrap .searchbox .search .topSearchBtnbox {
+  float: left;
+  width: 60px;
+  height: 40px;
+  background: #ff2337;
+  border-radius: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+  #docHead .docHeadWrap .searchbox .search .topSearchBtnbox:hover {
+    background: #f85a7d; 
+}
+  #docHead .docHeadWrap .searchbox .search .topSearchBtnbox .topSearchBtn {
+    display: inline-block;
+    height: 40px;
+    width: 50px;
+    font-size: 19px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+    background: url(../images/search.png) no-repeat 70% 50%;
+    background-size: 20px 20px; 
+}
+#docHead .docHeadWrap .searchbox .suggestlist {
+line-height: 22px;
+margin-top: 2px;
+width: 461px;
+height: 22px;
+overflow: hidden; 
+}
+#docHead .docHeadWrap .searchbox .suggestlist li {
+  float: left;
+  white-space: nowrap;
+  margin-left: 30px; 
+}
+  #docHead .docHeadWrap .searchbox .suggestlist li a {
+    color: #999; 
+}
+  #docHead .docHeadWrap .searchbox .suggestlist li a:hover {
+    text-decoration: underline; 
+}
+#docHead .docHeadWrap .shopcartnew {
+float: right;
+margin-right: 30px;
+display: block;
+width: 106px;
+height: 40px;
+background-color: #fff;
+line-height: 36px;
+font-size: 14px;
+text-align: center;
+border-radius: 40px;
+border: 2px solid #ff1e32;
+color: #333; 
+}
+#docHead .docHeadWrap .shopcartnew:hover {
+color: #ff1e32;
+background-color: #fff4f5; 
+}
+#docHead .docHeadWrap .shopcartnew .shop-cart-icon {
+display: inline-block;
+width: 20px;
+height: 20px;
+margin-right: 2px;
+margin-bottom: -5px;
+background: url(../images/shopCart.png) no-repeat 0 0;
+background-size: 20px 20px; 
+}
+#docHead .docHeadWrap .shopcartnew .wrap {
+display: inline-block;
+padding-left: 6px;
+background: none;
+vertical-align: middle; 
+}
+#docHead .docHeadWrap .shopcartnew .wrap .num {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  background: #ff1e32;
+  white-space: nowrap; 
+}
+#topTabBox {
+position: relative;
+background: #fff;
+z-index: 102;
+height: 40px; 
+}
+#topTabBox .topTab {
+width: 1090px;
+margin: 0 auto;
+line-height: 40px;
+z-index: 102; 
+}
+#topTabBox .topTab .topAll {
+float: left;
+height: 40px;
+width: 164px;
+background: red;
+color: #fff;
+font-size: 14px;
+text-align: center;
+padding-left: 0;
+overflow: visible; 
+}
+#topTabBox .topTab .topAll:hover .catitmlist {
+display: block;
+z-index: 95; 
+}
+#topTabBox .topTab .topAll .toplevel {
+display: inline-block;
+height: 40px;
+line-height: 40px;
+width: 164px;
+text-align: left;
+border-bottom: 1px solid #ff5160;
+cursor: pointer; 
+}
+#topTabBox .topTab .topAll .toplevel .lineicon {
+  display: inline-block;
+  margin: 0 24px 0 15px;
+  width: 15px;
+  height: 12px;
+  overflow: hidden; 
+}
+  #topTabBox .topTab .topAll .toplevel .lineicon i {
+    width: 15px;
+    height: 0;
+    border-top: 2px solid #ddd;
+    display: block;
+    margin-bottom: 3px; 
+  }
+#topTabBox .topTab .topAll .catitmlist {
+z-index: 110;
+display: none; 
+}
+#topTabBox .topTab .topAll .catitmlist .catli {
+  position: relative;
+  background: red;
+  height: 46px;
+  line-height: 46px;
+  padding-left: 10px;
+  width: 164px;
+  cursor: pointer;
+  text-align: left;
+  padding-right: 3px; 
+}
+  #topTabBox .topTab .topAll .catitmlist .catli:hover {
+    background: #fff;
+    border-right: 4px solid red;
+    border-left: 2px solid red;
+    border-top: 2px solid red; 
+  }
+    #topTabBox .topTab .topAll .catitmlist .catli:hover .catBg {
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+      padding: 0 20px 0 4px;
+      background: url(../images/topTab_catli_car2.png) no-repeat;
+      background-size: 20px 20px; 
+    }
+    #topTabBox .topTab .topAll .catitmlist .catli:hover .catTxt {
+      display: inline-block;
+      vertical-align: middle;
+      width: 70px;
+      height: 30px;
+      color: red;
+      margin-left: 20px;
+      line-height: 30px;
+      white-space: nowrap;
+       }
+  #topTabBox .topTab .topAll .catitmlist .catli span {
+    display: inline-block; 
+  }
+  #topTabBox .topTab .topAll .catitmlist .catli .catBg {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    padding: 0 20px 0 4px;
+    background: url(../images/topTab_catli_car.png) no-repeat;
+    background-size: 20px 20px; 
+  }
+  #topTabBox .topTab .topAll .catitmlist .catli .catTxt {
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+    height: 30px;
+    margin-left: 20px;
+    line-height: 30px;
+    white-space: nowrap; 
+  }
+#topTabBox .topTab .funcTab {
+z-index: 72;
+float: left;
+padding-left: 25px; 
+}
+#topTabBox .topTab .funcTab li {
+float: left;
+height: 40px;
+overflow: hidden;
+padding: 0 20px; 
+}
+#topTabBox .topTab .funcTab li a {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  color: #333; 
+}
+#topTabBox .topTab .funcTab li a:hover {
+  text-decoration: none;
+  color: #ff1e32; 
+}
+#topTabBox .topTab .funcTab::after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0; 
+}
+#tp{
+  width:100%;
+  height:506px;
+  position:relative;
+  img{
+    position:absolute;
+    top:0;
+    left:50%;
+    transform:translateX(-50%);
+  }
+}
+#shengjiang{
+  width:100%;
+  height:43px;
+  position:relative;
+  background:green;
+  .shengjiang{
+    height:43px;
+    position:absolute;
+    top:0;
+    left:50%;
+    transform:translateX(-50%);
+    background:green;
+    color:red;
+    line-height:43px;
+    text-align:center;
+    span{
+      display:inline-block;
+      width:60px;
+      height:43px;
+      font-size:23px;
+
+    }
+  }
+}
+#shengjiang .shengjiang #span1{
+    margin-right:21px;
+}
+#shengjiang .shengjiang #span2{
+    margin-left:21px;
+}
+#lsj{
+    width:100%;
+    height:580px;
+    ul{
+        width:1001px;
+        height:580px;
+        margin:0 auto;
+        background:green;
+        li{
+            width:194px;
+            height:286px;
+            background:white;
+            margin-left:5px;
+            margin-bottom:9px;
+            float:left;
+            position:relative;
+            img{
+              width:192px;
+              height:192px;;
+              position:absolute;
+              left:0;
+              top:0;
+            }
+
+            .span4{
+                display:block;
+                float:right;
+                width:68px;
+                height:24px;
+                background:red;
+                color:white;
+                text-align:center;
+                line-height:24px;
+                position:absolute;
+                left:120px;
+                top:246px;
+            }
+            .span2{
+                margin-left:0;
+                font-size:16px;
+                color:red;
+                position:absolute;
+                left:14px;
+                top:247px;
+            }
+            h4{
+                font-weight:14px;
+                // margin-top:8px;
+                // margin-left:6px;
+                margin-bottom:12px;
+                position:absolute;
+                left:6px;
+                top:221px;
+            }
+            h3{
+                font-weight:16px;
+                // margin-top:6px;
+                // margin-left:6px;
+                position:absolute;
+                left:6px;
+                top:201px;
+            }
+        }
+    }
+}
+#lsj ul li .span1{
+    // margin-left:6px;
+    color:red;
+    position:relative;
+    position:absolute;
+    left:6px;
+    top:253px;
+}
+#lsj ul li .span3{
+    position:absolute;
+    left:37px;
+    top:253px;
+}
+#lsj ul .sysbox {
+  position: relative;
+  left:0;
+  top:0;
+  z-index: 30;
+  border: solid 1px white;
+  width:194px;
+  height:286px;
+}
+#lsj ul .sysbox:hover{
+  width:194px;
+  height:316px;
+  border:1px solid red;
+  box-sizing: border-box;
+  background:white;
+  z-index:63;
+}
+#docFoot {
+  margin: 80px 0 0; 
+}
+#docFoot .footBgWrap {
+background: #fff;
+border-top: 1px solid #eaeaea; 
+}
+#docFoot .footBgWrap .box {
+width: 1100px;
+margin: 0 auto;
+background-color: transparent;
+text-align: left;
+font-size: inherit;
+color: inherit;
+cursor: default;
+display: block; 
+}
+#docFoot .footBgWrap .box #btmlist {
+padding: 49px 0;
+border-bottom: 1px solid #eaeaea;
+height: 140px; 
+}
+#docFoot .footBgWrap .box #btmlist li {
+  float: left;
+  width: 233px;
+  margin-left: 42px; 
+}
+  #docFoot .footBgWrap .box #btmlist li .btmIcon {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 2px solid #d6d6d6;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+    float: left;
+    margin-right: 12px; 
+  }
+  #docFoot .footBgWrap .box #btmlist li .tit {
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    line-height: 22px; 
+  }
+  #docFoot .footBgWrap .box #btmlist li .desc {
+    font-size: 14px;
+    display: block;
+    line-height: 22px; 
+  }
+#docFoot .footBgWrap .box #guideList {
+padding: 45px 0 90px;
+width: 1090px;
+height: 220px; 
+}
+#docFoot .footBgWrap .box #guideList .first {
+  width: 218px;
+  margin-right: 100px;
+  border: none; 
+}
+  #docFoot .footBgWrap .box #guideList .first a {
+    text-decoration: none; 
+  }
+  #docFoot .footBgWrap .box #guideList .first .logokaola {
+    display: block;
+    width: 220px;
+    height: 43px;
+    line-height: 45px;
+    margin-bottom: 20px;
+    outline: none;
+    cursor: pointer;
+    background: url(../images/logo.png) no-repeat; 
+  }
+  #docFoot .footBgWrap .box #guideList .first .focuson {
+    width: 220px;
+    height: 32px; 
+  }
+    #docFoot .footBgWrap .box #guideList .first .focuson .label {
+      display: inline-block;
+      vertical-align: middle;
+       }
+    #docFoot .footBgWrap .box #guideList .first .focuson .itm {
+      position: relative;
+      margin-left: 10px;
+      cursor: pointer;
+      display: inline-block;
+      vertical-align: middle; 
+    }
+      #docFoot .footBgWrap .box #guideList .first .focuson .itm .weibo {
+        background: url(../images/weibo.png) no-repeat;
+        width: 32px;
+        height: 32px;
+        background-size: 100%;
+        display: inline-block; 
+      }
+#docFoot .footBgWrap .box #guideList li {
+  float: left;
+  width: 110px;
+  padding: 0 0 0 21px;
+  height: 128px; 
+}
+  #docFoot .footBgWrap .box #guideList li dt {
+    margin: -4px 0 10px; 
+  }
+    #docFoot .footBgWrap .box #guideList li dt em {
+      font-size: 18px;
+      font-weight: 400;
+      font-style: normal; 
+    }
+  #docFoot .footBgWrap .box #guideList li dd {
+    line-height: 29px; 
+  }
+    #docFoot .footBgWrap .box #guideList li dd a {
+      color: #333; }
+      #docFoot .footBgWrap .box #guideList li dd a:hover {
+        text-decoration: underline; 
+      }
+#docFoot .footBgWrap .box #guideList .last {
+  margin-left: 30px;
+  width: 108px;
+  text-align: center;
+  float: left;
+  border: none; 
+}
+  #docFoot .footBgWrap .box #guideList .last img {
+    margin: 0 0 6px; 
+  }
+
+#aboutNEST {
+padding-top: 20px;
+width: 100%;
+margin: 0 auto;
+text-align: center;
+color: #c2c2c2;
+background: #333; 
+}
+#aboutNEST .jianjie a {
+color: #c2c2c2; 
+}
+#aboutNEST .jianjie a:hover {
+text-decoration: underline; 
+}
+#aboutNEST .xukezheng .m-license {
+margin-left: 20px;
+color: #c2c2c2; 
+}
+#aboutNEST .xukezheng .m-license:hover {
+text-decoration: underline; 
+}
+#aboutNEST .gongwan .banquan {
+color: #c2c2c2;
+display: inline-block;
+margin-left: 32px; 
+}
+#aboutNEST .gongwan .banquan:hover {
+text-decoration: underline; 
+}
+#aboutNEST .f-tac {
+height: 50px;
+margin-top: 20px;
+padding-left: 45%; 
+}
+#aboutNEST .f-tac a {
+float: left;
+margin-right: 20px; 
+}
+#aboutNEST .f-tac a img {
+height: 30px; 
+}
